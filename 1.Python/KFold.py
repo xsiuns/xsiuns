@@ -13,7 +13,7 @@ from sklearn.model_selection import StratifiedKFold
 import numpy as np
 
 
-iris = load_iris()
+iris = load_iris() ##꽃잎정보
 features = iris.data
 label = iris.target
 dt_clf = DecisionTreeClassifier(random_state=156)
